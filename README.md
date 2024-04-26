@@ -48,8 +48,8 @@ If you have Snapdragon 8 Gen 1, 8+ Gen 1, 7+ Gen 2, enable the second option in 
 ### Root settings
 If you have root, then you can use OOM Adjuster which is useful if low memory killer stops termux.
 ## Termux-X11 preferences
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` OFF
 * `Fullscreen on device display` ON
 * `Force Landscape orientation` ON
