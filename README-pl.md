@@ -1,18 +1,18 @@
 ![logo](docs/img/logo.png "logo")
 
-<a href="https://github.com/olegos2/mobox/tree/main">Angielski</a>
+<a href="https://github.com/Alexoqool/mobox-mod/tree/main">Angielski</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ru.md">Русский</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ru.md">Русский</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ua.md">Українська</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ua.md">Українська</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pt_BR.md">Português Brasileiro</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pt_BR.md">Português Brasileiro</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
 Polski
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ja.md">日本語</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ja.md">日本語</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-zh_CN.md">简体中文</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-zh_CN.md">简体中文</a>
 
 ##
 
@@ -21,12 +21,12 @@ Polski
 # Instalacja
 1. Zainstaluj
 [Termux](https://f-droid.org/repo/com.termux_118.apk),
-[Termux-X11](https://raw.githubusercontent.com/olegos2/mobox/main/components/termux-x11.apk) oraz
-[Input Bridge](https://raw.githubusercontent.com/olegos2/mobox/main/components/inputbridge.apk).
+[Termux-X11](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/termux-x11.apk) oraz
+[Input Bridge](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/inputbridge.apk).
 
 2. Otwórz termux i wklej komendę
 ```bash
-curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+curl -s -o ~/x https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/install && . ~/x
 ```
 
 3. Wpisz `mobox` w termux
@@ -47,8 +47,8 @@ Jeżeli posiadasz Snapdragon 8 Gen 1, 8+ Gen 1, 7+ Gen 2 odblokuj opcję `select
 ### Ustawienia root
 Jeżeli posiadasz roota, możesz użyć OOM Adjuster aby zapobiec ubijaniu procesów przez wysokie zużycie pamięci.
 ## Ustawienia Termux-X11
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` OFF
 * `Fullscreen on device display` ON
 * `Force Landscape orientation` ON
