@@ -48,8 +48,8 @@ Snapdragon 8 Gen 1、8+ Gen 1、7+ Gen 2 を使用している場合は、`Syste
 ### Root 設定
 root があれば、OOM Adjuster を使うことができ、メモリ不足でtermuxが止まってしまったときに便利です。
 ## Termux-X11 preferences
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` OFF
 * `Fullscreen on device display` ON
 * `Force Landscape orientation` ON
