@@ -1,18 +1,18 @@
 ![logo](docs/img/logo.png "logo")
 
-<a href="https://github.com/olegos2/mobox/tree/main">English</a>
+<a href="https://github.com/Alexoqool/mobox-mod/tree/main">English</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ru.md">Русский</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ru.md">Русский</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ua.md">Українська</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ua.md">Українська</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
 Português Brasileiro
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pl.md">Polski</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pl.md">Polski</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ja.md">日本語</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ja.md">日本語</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-zh_CN.md">简体中文</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-zh_CN.md">简体中文</a>
 
 ##
 
@@ -21,13 +21,13 @@ Português Brasileiro
 # Instalação
 1. Instale
 [Termux](https://f-droid.org/repo/com.termux_118.apk),
-[Termux-X11](https://raw.githubusercontent.com/olegos2/mobox/main/components/termux-x11.apk) e
-[Input Bridge](https://raw.githubusercontent.com/olegos2/mobox/main/components/inputbridge.apk).
+[Termux-X11](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/termux-x11.apk) e
+[Input Bridge](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/inputbridge.apk).
 
 2. Abra o termux e cole o comando
 
 ```bash
-curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+curl -s -o ~/x https://raw.githubusercontent.com/Alexoqol/mobox-mod/main/install && . ~/x
 ```
 
 3. Digite `mobox` no termux.
@@ -48,8 +48,8 @@ Se você tiver Snapdragon 8 Gen 1, 8+ Gen 1, 7+ Gen 2, ative a segunda opção e
 ### Configurações de root
 Se você tiver root, poderá usar o OOM Adjuster, que é útil se o eliminador de memória baixa parar o termux.
 ## Preferências do Termux-X11
-* `Modo de resolução de exibição` exato
-* `Resolução de exibição` 1280x720
+* `Modo de resolução de exibição` personalizada
+* `Resolução de exibição` 960x540
 * `Reinicializar tela enquanto o teclado virtual estiver aberto` DESLIGADO
 * `Tela cheia na exibição do dispositivo` LIGADO
 * `Forçar orientação paisagem` LIGADO
