@@ -1,16 +1,16 @@
 ![logo](docs/img/logo.png "logo")
 
-<a href="https://github.com/olegos2/mobox/blob/main">English</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main">English</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ru.md">Русский</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ru.md">Русский</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ua.md">Українська</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ua.md">Українська</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pt_BR.md">Português Brasileiro</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pt_BR.md">Português Brasileiro</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pl.md">Polski</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pl.md">Polski</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ja.md">日本語</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ja.md">日本語</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
 简体中文
 
@@ -19,12 +19,12 @@
 `Mobox` 是一个旨在使用 [Box64](https://github.com/ptitSeb/box64) 和 [Wine](https://www.winehq.org/) 在 [Termux](https://github.com/termux/termux-app) 中运行 Windows x86 应用程序的项目。
 
 # 安装
-1. 安装 [Termux](https://f-droid.org/repo/com.termux_118.apk)、[Termux-X11](https://raw.githubusercontent.com/olegos2/mobox/main/components/termux-x11.apk) 和 [Input Bridge](https://raw.githubusercontent.com/olegos2/mobox/main/components/inputbridge.apk)。
+1. 安装 [Termux](https://f-droid.org/repo/com.termux_118.apk)、[Termux-X11](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/termux-x11.apk) 和 [Input Bridge](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/inputbridge.apk)。
 
 2. 打开 termux 并粘贴以下命令
 
 ```bash
-curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+curl -s -o ~/x https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/install && . ~/x
 ```
 
 3. 在 termux 中输入 `mobox`。
@@ -45,8 +45,8 @@ Mesa VirGL、Turnip、Wine Mono 和 Gecko 可以在 Wine Start Menu 中安装。
 ### Root 设置
 如果您有 root 权限，则可以使用 OOM 调整器，这在低内存时阻止 termux 被杀死很有用。
 ## Termux-X11 推荐设置
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` 关闭
 * `Fullscreen on device display` 打开
 * `Force Landscape orientation` 打开
