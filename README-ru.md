@@ -1,18 +1,18 @@
 ![logo](docs/img/logo.png "logo")
 
-<a href="https://github.com/olegos2/mobox/tree/main">English</a>
+<a href="https://github.com/Alexoqool/mobox-mod/tree/main">English</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
 Русский
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ua.md">Українська</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ua.md">Українська</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pt_BR.md">Português Brasileiro</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pt_BR.md">Português Brasileiro</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pl.md">Polski</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pl.md">Polski</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ja.md">日本語</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ja.md">日本語</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-zh_CN.md">简体中文</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-zh_CN.md">简体中文</a>
 
 ##
 
@@ -21,13 +21,13 @@
 # Установка
 1. Установите
 [Termux](https://f-droid.org/repo/com.termux_118.apk),
-[Termux-X11](https://raw.githubusercontent.com/olegos2/mobox/main/components/termux-x11.apk) и
-[Input Bridge](https://raw.githubusercontent.com/olegos2/mobox/main/components/inputbridge.apk).
+[Termux-X11](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/termux-x11.apk) и
+[Input Bridge](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/inputbridge.apk).
 
 2. Откройте termux и вставьте команду
 
 ```bash
-curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+curl -s -o ~/x https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/install && . ~/x
 ```
 
 3. Введите `mobox` в termux.
@@ -48,8 +48,8 @@ Mesa VirGL, Turnip, Wine Mono и Gecko могут быть установлен�
 ### Root настройки
 Если у вас есть Root, то можно использовать OOM Adjuster, который помогает сохранять Termux в фоне.
 ## Termux-X11 preferences
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` OFF
 * `Fullscreen on device display` ON
 * `Force Landscape orientation` ON
