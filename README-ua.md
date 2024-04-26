@@ -1,18 +1,18 @@
 ![logo](docs/img/logo.png "logo")
 
-<a href="https://github.com/olegos2/mobox/tree/main">English</a>
+<a href="https://github.com/Alexoqool/mobox-mod/tree/main">English</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ru.md">Русский</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ru.md">Русский</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
 Українська
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pt_BR.md">Português Brasileiro</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pt_BR.md">Português Brasileiro</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-pl.md">Polski</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-pl.md">Polski</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-ja.md">日本語</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-ja.md">日本語</a>
 &nbsp;&nbsp;| &nbsp;&nbsp;
-<a href="https://github.com/olegos2/mobox/blob/main/README-zh_CN.md">简体中文</a>
+<a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-zh_CN.md">简体中文</a>
 
 ##
 
@@ -21,13 +21,13 @@
 # Встановлення
 1. Встановіть
 [Termux](https://f-droid.org/repo/com.termux_118.apk),
-[Termux-X11](https://raw.githubusercontent.com/olegos2/mobox/main/components/termux-x11.apk) та
-[Input Bridge](https://raw.githubusercontent.com/olegos2/mobox/main/components/inputbridge.apk).
+[Termux-X11](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/termux-x11.apk) та
+[Input Bridge](https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/components/inputbridge.apk).
 
 2. Відкрийте termux та вставте команду
 
 ```bash
-curl -s -o ~/x https://raw.githubusercontent.com/olegos2/mobox/main/install && . ~/x
+curl -s -o ~/x https://raw.githubusercontent.com/Alexoqool/mobox-mod/main/install && . ~/x
 ```
 
 3. Введіть `mobox` у termux.
@@ -48,8 +48,8 @@ Mesa VirGL, Turnip, Wine Mono та Gecko можуть бути встановл�
 ### Root налаштування
 Якщо ви маєте Root, то можна використовувати OOM Adjuster, який допомагає зберігати Termux у фоновому режимі.
 ## Termux-X11 preferences
-* `Display resolution mode` exact
-* `Display resolution` 1280x720
+* `Display resolution mode` custom
+* `Display resolution` 960x540
 * `Reseed Screen While Soft Keyboard is open` OFF
 * `Fullscreen on device display` ON
 * `Force Landscape orientation` ON
