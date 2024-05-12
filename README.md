@@ -14,6 +14,9 @@ English
 &nbsp;&nbsp;| &nbsp;&nbsp;
 <a href="https://github.com/Alexoqool/mobox-mod/blob/main/README-zh_CN.md">简体中文</a>
 
+![GitHub Downloads](https://img.shields.io/github/downloads/brunodev85/winlator/total?logo=github&label=Total%20Downloads)
+
+
 ##
 
 `Mobox` is a project designed to run windows x86 applications in [Termux](https://github.com/termux/termux-app) using [Box64](https://github.com/ptitSeb/box64) and [Wine](https://www.winehq.org/).
