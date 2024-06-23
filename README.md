@@ -19,6 +19,8 @@ English
 
 `Mobox` is a project designed to run windows x86 applications in [Termux](https://github.com/termux/termux-app) using [Box64](https://github.com/ptitSeb/box64) and [Wine](https://www.winehq.org/).
 
+![GitHub Downloads](https://img.shields.io/github/downloads/brunodev85/Winlator/total?logo=github&label=Total%20Downloads)
+
 # Installation
 1. Install
 [Termux](https://f-droid.org/repo/com.termux_118.apk),
